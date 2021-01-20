@@ -1,3 +1,3 @@
 module.exports = async page => {
-    await page.select("#ticket-quantity", "3");
+    await page.select("select#ticket-quantity", "3");
 }

@@ -40,6 +40,13 @@
       "onReadyScript": "puppet/custom/selectTickets.js",
       "misMatchThreshold" : 0.1,
       "requireSameDimensions": true
+    },
+    {
+      "label": "Invalid Email Field",
+      "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
+      "onReadyScript": "puppet/custom/invalidEmail.js",
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
     }
   ],
   "paths": {

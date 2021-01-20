@@ -1,11 +1,6 @@
 {
-  "id": "backstop_default",
+  "id": "Ticketbox",
   "viewports": [
-    {
-      "label": "phone",
-      "width": 320,
-      "height": 480
-    },
     {
       "label": "tablet",
       "width": 1024,
@@ -16,21 +11,8 @@
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "BackstopJS Homepage",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://garris.github.io/BackstopJS/",
-      "referenceUrl": "",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
+      "label": "Initial State",
+      "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
       "misMatchThreshold" : 0.1,
       "requireSameDimensions": true
     }

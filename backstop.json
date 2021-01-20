@@ -13,14 +13,14 @@
     {
       "label": "Initial State",
       "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
-      "misMatchThreshold" : 0.1,
+      "misMatchThreshold" : 0,
       "requireSameDimensions": true
     },
     {
       "label": "Checked VIP",
       "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
       "clickSelector": "input#vip",
-      "misMatchThreshold" : 0.1,
+      "misMatchThreshold" : 0,
       "requireSameDimensions": true
     },
     {
@@ -31,21 +31,38 @@
         "input#publication",
         "input#social-media"
       ],
-      "misMatchThreshold" : 0.1,
+      "misMatchThreshold" : 0,
       "requireSameDimensions": true
     },
     {
       "label": "Select 3 Tickets",
       "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
       "onReadyScript": "puppet/custom/selectTickets.js",
-      "misMatchThreshold" : 0.1,
+      "misMatchThreshold" : 0,
       "requireSameDimensions": true
     },
     {
       "label": "Invalid Email Field",
       "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
       "onReadyScript": "puppet/custom/invalidEmail.js",
-      "misMatchThreshold" : 0.1,
+      "misMatchThreshold" : 0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Fill out required fields",
+      "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
+      "onReadyScript": "puppet/custom/fillOutRequiredFields.js",
+      "misMatchThreshold" : 0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Click Confirm",
+      "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
+      "onReadyScript": "puppet/custom/clickConfirm.js",
+      "hideSelectors": [
+        "div.success span"
+      ],
+      "misMatchThreshold" : 0,
       "requireSameDimensions": true
     }
   ],

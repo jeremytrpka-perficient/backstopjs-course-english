@@ -1,0 +1,9 @@
+# Backstop
+backstop_data/bitmaps_test/
+backstop_data/html_report/
+
+# NPM
+node_modules/
+
+# Mac
+.DS_Store

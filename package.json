@@ -4,7 +4,8 @@
   "description": "Project for the course of BackstopJS from the Talking About Testing online school.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "backstop test",
+    "visual:approve": "backstop approve"
   },
   "repository": {
     "type": "git",

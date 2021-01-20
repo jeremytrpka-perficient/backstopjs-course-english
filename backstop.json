@@ -15,6 +15,24 @@
       "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
       "misMatchThreshold" : 0.1,
       "requireSameDimensions": true
+    },
+    {
+      "label": "Checked VIP",
+      "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
+      "clickSelector": "input#vip",
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Checkboxes",
+      "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
+      "clickSelector": [
+        "input#friend",
+        "input#publication",
+        "input#social-media"
+      ],
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
     }
   ],
   "paths": {

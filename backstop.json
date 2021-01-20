@@ -26,11 +26,18 @@
     {
       "label": "Checkboxes",
       "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
-      "clickSelector": [
+      "clickSelectors": [
         "input#friend",
         "input#publication",
         "input#social-media"
       ],
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Select 3 Tickets",
+      "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
+      "onReadyScript": "puppet/custom/selectTickets.js",
       "misMatchThreshold" : 0.1,
       "requireSameDimensions": true
     }

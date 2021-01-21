@@ -1,0 +1,24 @@
+{
+  "name": "backstopjs-course-english",
+  "version": "1.0.0",
+  "description": "Project for the course of BackstopJS from the Talking About Testing online school.",
+  "main": "index.js",
+  "scripts": {
+    "test": "backstop test",
+    "visual:approve": "backstop approve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremytrpka-perficient/backstopjs-course-english.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremytrpka-perficient/backstopjs-course-english/issues"
+  },
+  "homepage": "https://github.com/jeremytrpka-perficient/backstopjs-course-english#readme",
+  "devDependencies": {
+    "backstopjs": "^5.0.8"
+  }
+}
